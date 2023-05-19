@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         dryRun = false,
         strict = true,
         monochrome = true,
-        tags = "@bsr2",
+        tags = "@bsr3",
         plugin = "json:target/cucumber-report/cucumber.json")
 
 

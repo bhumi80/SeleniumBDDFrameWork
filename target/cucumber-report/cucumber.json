@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 3618692300,
+              "duration": 4886347300,
               "status": "passed"
             },
             "match": {
@@ -14,14 +14,14 @@
             }
           }
         ],
-        "line": 15,
-        "name": "Validating mandatory field on register page",
+        "line": 6,
+        "name": "add product to basket",
         "description": "",
-        "id": "registration-feature;validating-mandatory-field-on-register-page",
+        "id": "product-to-cart;add-product-to-basket",
         "after": [
           {
             "result": {
-              "duration": 856573201,
+              "duration": 873802000,
               "status": "passed"
             },
             "match": {
@@ -34,70 +34,70 @@
         "steps": [
           {
             "result": {
-              "duration": 949140800,
+              "duration": 240930400,
               "status": "passed"
             },
-            "line": 16,
-            "name": "I am on home page",
+            "line": 7,
+            "name": "I am on homepage",
             "match": {
-              "location": "RegistrationSteps.i_am_on_home_page()"
+              "location": "HomeSteps.i_am_on_homepage()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 376176300,
+              "duration": 1184313500,
               "status": "passed"
             },
-            "line": 17,
-            "name": "I click on register button",
+            "line": 8,
+            "name": "I search for product \"portable sound speakers\"",
             "match": {
-              "location": "HomeSteps.i_click_on_register_button()"
+              "arguments": [
+                {
+                  "val": "portable sound speakers",
+                  "offset": 22
+                }
+              ],
+              "location": "AddProductToCartSteps.i_search_for_product(String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1409933800,
+              "duration": 87057500,
               "status": "passed"
             },
-            "line": 18,
-            "name": "I enter first name, lastname, valid email,password and confirm password",
+            "line": 9,
+            "name": "I add the product to cart",
             "match": {
-              "location": "RegistrationSteps.i_enter_first_name_lastname_valid_email_password_and_confirm_password()"
+              "location": "AddProductToCartSteps.i_add_the_product_to_cart()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 682358799,
+              "duration": 338526100,
               "status": "passed"
             },
-            "line": 19,
-            "name": "I click on register button on register page",
+            "line": 10,
+            "name": "the product should be on cart",
             "match": {
-              "location": "RegistrationSteps.i_click_on_register_button_on_register_page()"
+              "location": "AddProductToCartSteps.the_product_should_be_on_cart()"
             },
             "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 14,
-            "name": "@bsr2"
           }
         ]
       }
     ],
-    "name": "registration feature",
-    "description": "As a user\r\nI want to add registration functionality\r\nSo that customer can use it",
-    "id": "registration-feature",
+    "name": "Product to cart",
+    "description": "As a user i want to add product to cart\r\nso i buy product",
+    "id": "product-to-cart",
     "keyword": "Feature",
-    "uri": "registration.feature",
+    "uri": "produtocart.feature",
     "tags": [
       {
         "line": 1,
-        "name": "@bsr1"
+        "name": "@bsr3"
       }
     ]
   }
