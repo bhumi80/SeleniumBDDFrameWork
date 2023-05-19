@@ -1,0 +1,104 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3618692300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Validating mandatory field on register page",
+        "description": "",
+        "id": "registration-feature;validating-mandatory-field-on-register-page",
+        "after": [
+          {
+            "result": {
+              "duration": 856573201,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 949140800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I am on home page",
+            "match": {
+              "location": "RegistrationSteps.i_am_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 376176300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on register button",
+            "match": {
+              "location": "HomeSteps.i_click_on_register_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1409933800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter first name, lastname, valid email,password and confirm password",
+            "match": {
+              "location": "RegistrationSteps.i_enter_first_name_lastname_valid_email_password_and_confirm_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 682358799,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on register button on register page",
+            "match": {
+              "location": "RegistrationSteps.i_click_on_register_button_on_register_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 14,
+            "name": "@bsr2"
+          }
+        ]
+      }
+    ],
+    "name": "registration feature",
+    "description": "As a user\r\nI want to add registration functionality\r\nSo that customer can use it",
+    "id": "registration-feature",
+    "keyword": "Feature",
+    "uri": "registration.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@bsr1"
+      }
+    ]
+  }
+]
