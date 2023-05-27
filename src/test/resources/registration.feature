@@ -1,4 +1,4 @@
-@bsr1
+@bsr2
 Feature: registration feature
   As a user
   I want to add registration functionality
@@ -11,7 +11,6 @@ Feature: registration feature
     When I click on register button
     Then I should see "Register" text
 
-@bsr2
     Scenario: Validating mandatory field on register page
       Given I am on home page
       When I click on register button
