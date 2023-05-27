@@ -1,0 +1,104 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3645095300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Digital downloads page display 3 items",
+        "description": "",
+        "id": "as-a-user-i-click-on-digital-downloads-i-can-able-to-see-6-items-per-page;digital-downloads-page-display-3-items",
+        "after": [
+          {
+            "result": {
+              "duration": 761824400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 151590000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on homepage",
+            "match": {
+              "location": "HomeSteps.i_am_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 926789800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on digital downloads button",
+            "match": {
+              "location": "DigitalItemSteps.i_click_on_digital_downloads_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 102405200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I select 3 on display button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 9
+                }
+              ],
+              "location": "DigitalItemSteps.i_select_on_display_button(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 194250100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "display  three items",
+            "match": {
+              "location": "DigitalItemSteps.display_three_items()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "As a user I click on digital downloads i can able to see 6 items per page",
+    "description": "",
+    "id": "as-a-user-i-click-on-digital-downloads-i-can-able-to-see-6-items-per-page",
+    "keyword": "Feature",
+    "uri": "digitaldisplayitems.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@bsr4"
+      }
+    ]
+  }
+]
