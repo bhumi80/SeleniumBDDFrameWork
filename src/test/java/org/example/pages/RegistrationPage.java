@@ -40,15 +40,15 @@ public class RegistrationPage extends DriverManager {
 
         email.click();
         email.clear();
-        email.sendKeys("bp1234@bs.com");
+        email.sendKeys("bs123@bp.com");
 
         password.click();
         password.clear();
-        password.sendKeys("abcd123");
+        password.sendKeys("xyz12345");
 
         confirmPassword.click();
         confirmPassword.clear();
-        confirmPassword.sendKeys("abcd123");
+        confirmPassword.sendKeys("xyz12345");
     }
 
     @FindBy(id = "register-button")

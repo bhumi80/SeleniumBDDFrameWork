@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 4886347300,
+              "duration": 3645095300,
               "status": "passed"
             },
             "match": {
@@ -14,18 +14,18 @@
             }
           }
         ],
-        "line": 6,
-        "name": "add product to basket",
+        "line": 4,
+        "name": "Digital downloads page display 3 items",
         "description": "",
-        "id": "product-to-cart;add-product-to-basket",
+        "id": "as-a-user-i-click-on-digital-downloads-i-can-able-to-see-6-items-per-page;digital-downloads-page-display-3-items",
         "after": [
           {
             "result": {
-              "duration": 873802000,
+              "duration": 761824400,
               "status": "passed"
             },
             "match": {
-              "location": "Hooks.tearDown()"
+              "location": "Hooks.tearDown(Scenario)"
             }
           }
         ],
@@ -34,10 +34,10 @@
         "steps": [
           {
             "result": {
-              "duration": 240930400,
+              "duration": 151590000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 5,
             "name": "I am on homepage",
             "match": {
               "location": "HomeSteps.i_am_on_homepage()"
@@ -46,58 +46,58 @@
           },
           {
             "result": {
-              "duration": 1184313500,
+              "duration": 926789800,
               "status": "passed"
             },
-            "line": 8,
-            "name": "I search for product \"portable sound speakers\"",
+            "line": 6,
+            "name": "I click on digital downloads button",
             "match": {
-              "arguments": [
-                {
-                  "val": "portable sound speakers",
-                  "offset": 22
-                }
-              ],
-              "location": "AddProductToCartSteps.i_search_for_product(String)"
+              "location": "DigitalItemSteps.i_click_on_digital_downloads_button()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 87057500,
+              "duration": 102405200,
               "status": "passed"
             },
-            "line": 9,
-            "name": "I add the product to cart",
+            "line": 7,
+            "name": "I select 3 on display button",
             "match": {
-              "location": "AddProductToCartSteps.i_add_the_product_to_cart()"
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 9
+                }
+              ],
+              "location": "DigitalItemSteps.i_select_on_display_button(int)"
             },
-            "keyword": "And "
+            "keyword": "Then "
           },
           {
             "result": {
-              "duration": 338526100,
+              "duration": 194250100,
               "status": "passed"
             },
-            "line": 10,
-            "name": "the product should be on cart",
+            "line": 8,
+            "name": "display  three items",
             "match": {
-              "location": "AddProductToCartSteps.the_product_should_be_on_cart()"
+              "location": "DigitalItemSteps.display_three_items()"
             },
-            "keyword": "Then "
+            "keyword": "And "
           }
         ]
       }
     ],
-    "name": "Product to cart",
-    "description": "As a user i want to add product to cart\r\nso i buy product",
-    "id": "product-to-cart",
+    "name": "As a user I click on digital downloads i can able to see 6 items per page",
+    "description": "",
+    "id": "as-a-user-i-click-on-digital-downloads-i-can-able-to-see-6-items-per-page",
     "keyword": "Feature",
-    "uri": "produtocart.feature",
+    "uri": "digitaldisplayitems.feature",
     "tags": [
       {
         "line": 1,
-        "name": "@bsr3"
+        "name": "@bsr4"
       }
     ]
   }

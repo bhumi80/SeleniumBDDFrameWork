@@ -28,7 +28,9 @@ public class AddProductToCartPage extends DriverManager {
         addToCartButton.click();
     }
 
-public void setPopupMessage(){
+    public void setPopupMessage(){
         popupMessage.isDisplayed();
+        String getPopUpMessage = popupMessage.getText();
+        System.out.println(getPopUpMessage);
 }
 }
