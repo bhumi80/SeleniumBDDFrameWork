@@ -5,6 +5,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.PageFactory;
@@ -42,6 +43,28 @@ public class DriverManager {
               //  throw new IllegalAccessException();
         }
     }
+
+//    public void headlessBrowser() throws IllegalAccessException {
+//        switch (browser){
+//            case "chrome":
+//                WebDriverManager.chromedriver().setup();
+//                ChromeOptions chromeOptions = new ChromeOptions();
+//                chromeOptions.setHeadless(true);
+//                chromeOptions.addArguments("--window-size=1920,1080");
+//                driver = new ChromeDriver(chromeOptions);
+//
+//                // case "edge":
+//                //  WebDriverManager.edgedriver().setup();
+//                //  driver = new EdgeDriver();
+//
+//                //  case  "firefox":
+//                // WebDriverManager.firefoxdriver().setup();
+//                // driver = new FirefoxDriver();
+//
+//                // default:
+//                //  throw new IllegalAccessException();
+//        }
+//    }
 
     public void maximizingWindow(){
         driver.manage().window().maximize();

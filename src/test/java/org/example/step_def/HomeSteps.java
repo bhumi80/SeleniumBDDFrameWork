@@ -33,5 +33,6 @@ public class HomeSteps extends DriverManager {
     @When("^I click on register button$")
     public void i_click_on_register_button() throws Throwable {
         homePage.clickOnRegistrationButton();
+        Thread.sleep(7000);
     }
 }

@@ -1,5 +1,6 @@
 org\example\Hooks.class
 org\example\pages\DigitalItemPage.class
+org\example\pages\End2EndPage.class
 org\example\RunCukesTest.class
 org\example\pages\HomePage.class
 org\example\step_def\AddProductToCartSteps.class

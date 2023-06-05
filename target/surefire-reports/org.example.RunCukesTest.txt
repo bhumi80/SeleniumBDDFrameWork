@@ -1,4 +1,108 @@
 -------------------------------------------------------------------------------
 Test set: org.example.RunCukesTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.578 s - in org.example.RunCukesTest
+Tests run: 24, Failures: 0, Errors: 8, Skipped: 8, Time elapsed: 26.707 s <<< FAILURE! - in org.example.RunCukesTest
+And I enter following details for registration(| female | Riya | Menon | 23/3/1980 | rm16@yahoo.com | abcdef | abcdef |)  Time elapsed: 0.009 s  <<< ERROR!
+org.openqa.selenium.InvalidSelectorException: 
+invalid selector: Unable to locate an element with the xpath expression //div[@class=inputs date-of-birth] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class=inputs date-of-birth]' is not a valid XPath expression.
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'BHUMI', ip: '192.168.0.121', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_352'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\sutha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51661}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ce9687e373ba323bbee55e59af42477
+*** Element info: {Using=xpath, value=//div[@class=inputs date-of-birth]}
+
+| female | Riya | Menon | 23/3/1980 | rm16@yahoo.com | abcdef | abcdef |  Time elapsed: 0.009 s  <<< ERROR!
+org.openqa.selenium.InvalidSelectorException: 
+invalid selector: Unable to locate an element with the xpath expression //div[@class=inputs date-of-birth] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class=inputs date-of-birth]' is not a valid XPath expression.
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'BHUMI', ip: '192.168.0.121', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_352'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\sutha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51661}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ce9687e373ba323bbee55e59af42477
+*** Element info: {Using=xpath, value=//div[@class=inputs date-of-birth]}
+
+And I enter following details for registration(| male | Viral | Vyas | 25/4/1985 | vyas45@gmail.com | 123456 | 123456 |)  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.InvalidSelectorException: 
+invalid selector: Unable to locate an element with the xpath expression //div[@class=inputs date-of-birth] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class=inputs date-of-birth]' is not a valid XPath expression.
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'BHUMI', ip: '192.168.0.121', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_352'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\sutha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51683}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6abce18aa012bb24e08bbbecc74bb7e5
+*** Element info: {Using=xpath, value=//div[@class=inputs date-of-birth]}
+
+| male | Viral | Vyas | 25/4/1985 | vyas45@gmail.com | 123456 | 123456 |  Time elapsed: 0.001 s  <<< ERROR!
+org.openqa.selenium.InvalidSelectorException: 
+invalid selector: Unable to locate an element with the xpath expression //div[@class=inputs date-of-birth] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class=inputs date-of-birth]' is not a valid XPath expression.
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'BHUMI', ip: '192.168.0.121', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_352'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\sutha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51683}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6abce18aa012bb24e08bbbecc74bb7e5
+*** Element info: {Using=xpath, value=//div[@class=inputs date-of-birth]}
+
+And I enter following details for registration(| male | Nitin | Patel | 12/6/1976 | nit65@hotmail.com | ab12cd | ab12cd |)  Time elapsed: 0.002 s  <<< ERROR!
+org.openqa.selenium.InvalidSelectorException: 
+invalid selector: Unable to locate an element with the xpath expression //div[@class=inputs date-of-birth] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class=inputs date-of-birth]' is not a valid XPath expression.
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'BHUMI', ip: '192.168.0.121', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_352'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\sutha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51704}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0083a2ea95530e89e0bfb32de0c17386
+*** Element info: {Using=xpath, value=//div[@class=inputs date-of-birth]}
+
+| male | Nitin | Patel | 12/6/1976 | nit65@hotmail.com | ab12cd | ab12cd |  Time elapsed: 0.004 s  <<< ERROR!
+org.openqa.selenium.InvalidSelectorException: 
+invalid selector: Unable to locate an element with the xpath expression //div[@class=inputs date-of-birth] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class=inputs date-of-birth]' is not a valid XPath expression.
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'BHUMI', ip: '192.168.0.121', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_352'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\sutha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51704}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0083a2ea95530e89e0bfb32de0c17386
+*** Element info: {Using=xpath, value=//div[@class=inputs date-of-birth]}
+
+And I enter following details for registration(| female | Trisha | Panchal | 17/4/1980 | Panchi@yahoo.com | cdef34 | cdef34 |)  Time elapsed: 0.001 s  <<< ERROR!
+org.openqa.selenium.InvalidSelectorException: 
+invalid selector: Unable to locate an element with the xpath expression //div[@class=inputs date-of-birth] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class=inputs date-of-birth]' is not a valid XPath expression.
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'BHUMI', ip: '192.168.0.121', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_352'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\sutha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51725}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cc7652a905ab5b30ccc8f4898e3b350c
+*** Element info: {Using=xpath, value=//div[@class=inputs date-of-birth]}
+
+| female | Trisha | Panchal | 17/4/1980 | Panchi@yahoo.com | cdef34 | cdef34 |  Time elapsed: 0.002 s  <<< ERROR!
+org.openqa.selenium.InvalidSelectorException: 
+invalid selector: Unable to locate an element with the xpath expression //div[@class=inputs date-of-birth] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class=inputs date-of-birth]' is not a valid XPath expression.
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'BHUMI', ip: '192.168.0.121', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_352'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\sutha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51725}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cc7652a905ab5b30ccc8f4898e3b350c
+*** Element info: {Using=xpath, value=//div[@class=inputs date-of-birth]}
+
