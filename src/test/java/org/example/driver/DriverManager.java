@@ -25,11 +25,11 @@ public class DriverManager {
         PageFactory.initElements(driver,this);
     }
 
-    public void openLocalBrowser() throws IllegalAccessException {
-        switch (browser){
-            case "chrome":
-                WebDriverManager.chromedriver().setup();
-                driver = new ChromeDriver();
+//    public void openLocalBrowser() throws IllegalAccessException {
+//        switch (browser){
+//            case "chrome":
+//                WebDriverManager.chromedriver().setup();
+//                driver = new ChromeDriver();
 
            // case "edge":
               //  WebDriverManager.edgedriver().setup();
@@ -41,30 +41,30 @@ public class DriverManager {
 
            // default:
               //  throw new IllegalAccessException();
-        }
-    }
-
-//    public void headlessBrowser() throws IllegalAccessException {
-//        switch (browser){
-//            case "chrome":
-//                WebDriverManager.chromedriver().setup();
-//                ChromeOptions chromeOptions = new ChromeOptions();
-//                chromeOptions.setHeadless(true);
-//                chromeOptions.addArguments("--window-size=1920,1080");
-//                driver = new ChromeDriver(chromeOptions);
-//
-//                // case "edge":
-//                //  WebDriverManager.edgedriver().setup();
-//                //  driver = new EdgeDriver();
-//
-//                //  case  "firefox":
-//                // WebDriverManager.firefoxdriver().setup();
-//                // driver = new FirefoxDriver();
-//
-//                // default:
-//                //  throw new IllegalAccessException();
 //        }
 //    }
+
+    public void headlessBrowser() throws IllegalAccessException {
+        switch (browser){
+            case "chrome":
+                WebDriverManager.chromedriver().setup();
+                ChromeOptions chromeOptions = new ChromeOptions();
+                chromeOptions.setHeadless(true);
+                chromeOptions.addArguments("--window-size=1920,1080");
+                driver = new ChromeDriver(chromeOptions);
+
+                // case "edge":
+                //  WebDriverManager.edgedriver().setup();
+                //  driver = new EdgeDriver();
+
+                //  case  "firefox":
+                // WebDriverManager.firefoxdriver().setup();
+                // driver = new FirefoxDriver();
+
+                // default:
+                //  throw new IllegalAccessException();
+        }
+    }
 
     public void maximizingWindow(){
         driver.manage().window().maximize();

@@ -5,13 +5,13 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.example.driver.DriverManager;
-import org.example.pages.End2EndPage;
+import org.example.pages.ProductCheckoutSuccessfullyPage;
 
 import java.util.List;
 import java.util.Map;
 
-public class End2EndSteps extends DriverManager {
-    End2EndPage end2EndPage = new End2EndPage();
+public class ProductCheckoutSuccessfullySteps extends DriverManager {
+    ProductCheckoutSuccessfullyPage end2EndPage = new ProductCheckoutSuccessfullyPage();
 
     @When("^I click on \"([^\"]*)\"$")
     public void i_click_on(String arg1) throws Throwable {

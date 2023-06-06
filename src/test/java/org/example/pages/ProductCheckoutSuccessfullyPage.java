@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
 
-public class End2EndPage extends DriverManager {
+public class ProductCheckoutSuccessfullyPage extends DriverManager {
 
 //    @FindBy(id = "FirstName")
 //    WebElement firstNameBox;
