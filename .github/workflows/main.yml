@@ -10,7 +10,7 @@ on:
     branches: [ main ]
 
 jobs:
-  build:
+  build_test_and_run:
 
     runs-on: ${{ matrix.os }}
 
